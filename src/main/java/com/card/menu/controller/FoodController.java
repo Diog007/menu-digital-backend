@@ -13,7 +13,7 @@ import java.util.List;
 @RequestMapping("food")
 public class FoodController {
 
-    @Autowired
+    @Autowired 
     private FoodRepository repository;
 
     @PostMapping
